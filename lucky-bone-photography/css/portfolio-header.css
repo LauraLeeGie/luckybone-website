@@ -1,0 +1,22 @@
+.header {
+    top: 35px;
+}
+
+.header-logo {
+    height: 9rem;
+}
+
+.main-nav {
+    background-color: rgba(191,224,223,.8);
+    color: #163838;
+    font-size: 35px;
+}
+
+.sub-nav {
+    color: #163838;
+    font-size: 23px;
+}
+
+.header-social-media-link {
+    height: 1.5rem;
+}

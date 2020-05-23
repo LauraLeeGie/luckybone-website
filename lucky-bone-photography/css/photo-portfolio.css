@@ -1,0 +1,20 @@
+body {
+    background-image: URL("../imgs/photo-portfolio-back.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.info-bar {
+    color: #FFFFFF;
+    text-indent: 30px;
+    font-weight: 400;
+    font-size: 23;
+    background-color: #B6DCDB;
+}
+
+.portfolio p {
+    font-size: 20;
+    background-color: rgba(191,224,223,.6);
+}

@@ -1,0 +1,33 @@
+body {
+    background-image: URL("../imgs/front-page-back.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    font-size: 35px;
+}
+
+a {
+    color: #163838;
+}
+
+a:hover {
+    color: #c85216;
+    text-decoration: none;
+}
+
+.main-logo {
+    height: 9rem;
+}
+
+.front-menu-bar {
+    background-color: #ffffff;
+    color: #163838;
+    box-sizing: content-box;
+}
+
+.social-media-link {
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
