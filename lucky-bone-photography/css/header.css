@@ -5,12 +5,12 @@
 .main-nav {
     background-color: rgba(191,224,223,.8);
     color: #163838;
-    font-size: 35px;
+    font-size: 3em;
 }
 
 .sub-nav {
     color: #163838;
-    font-size: 23px;
+    font-size: 1.75em;
 }
 
 .header-social-media-link {
