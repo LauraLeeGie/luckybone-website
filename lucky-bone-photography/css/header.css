@@ -1,5 +1,19 @@
 .header-logo {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
     height: 9rem;
+}
+/* increase logo size*/
+.header-logo:hover {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    height: 10rem;
 }
 
 .main-nav {
@@ -15,4 +29,8 @@
 
 .header-social-media-link {
     height: 1.5rem;
+}
+
+.active {
+    color: #C85216;
 }
