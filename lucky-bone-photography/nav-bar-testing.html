@@ -16,7 +16,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://use.typekit.net/tzh4jlq.css">
     <link rel="stylesheet" href="css/main-style.css">
-    <link rel="stylesheet" href="css/header-testing.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/contact.css">
 
@@ -30,9 +30,8 @@
         <div class="row justify-content-between my-5">
   
           <!--Logo-->
-          <nav class="col">
-            <a href="front-page.html"></a>
-            <img src="imgs/wishbone-logo-fill.png" alt="wishbone logo" class="header-logo"></a>
+          <nav class="nav-item col text-sm-left text-center mb-4">
+            <a href="front-page.html"><img src="imgs/wishbone-logo-fill.png" alt="wishbone logo" class="header-logo"></a></a>
           </nav>
   
           <!--Nav Menu-->
@@ -41,14 +40,14 @@
             <!--Main Nav Menu-->
             <div class="row h-50 pl-5 main-nav">
               <div class="container navbar navbar-expand">
-                <div class="col-md-auto my-auto pt-2">
-                  <p>Web Design</p>
+                <div class="nav-item col-auto my-auto pt-2">
+                  <a href="web-portfolio.html"><p>Web Design</p></a>
                 </div>
                 <div class="col-md-auto my-auto pt-2">
                   <p class="unselectable">|</p>
                 </div>
-                <div class="col-md-auto my-auto pt-2">
-                  <p>Photography</p>
+                <div class="nav-item col-md-auto my-auto pt-2">
+                  <p class="active">Photography</p>
                 </div>
               </div>
             </div>
@@ -59,7 +58,7 @@
 
                   <!--Collapse button-->
                     <button 
-                      class="navbar-toggler" 
+                      class="navbar-toggler ml-auto" 
                       type="button" 
                       data-toggle="collapse" 
                       data-target="#sub-nav-collapse"
@@ -73,21 +72,21 @@
 
                     <!--Collapseable content-->
                     <div class="collapse navbar-collapse" id="sub-nav-collapse">
-                      <div class="nav-item col-lg-3 my-1 text-center">
-                          <p>Portfolio</p>
+                      <div class="nav-item col-lg-3 my-auto text-center">
+                          <a href="/photo-portfolio.html"><p class="my-0">Portfolio</p></a>
                       </div>
-                      <div class="nav-item col-lg-3 my-1 text-center">
-                          <p>Services</p>
+                      <div class="nav-item col-lg-3 my-auto text-center">
+                          <a href="/photo-services.html"><p class="my-0">Services</p></a>
                       </div>
-                      <div class="nav-item col-lg-3 my-1 text-center">
-                          <p>Contact</p>
+                      <div class="nav-item col-lg-3 my-auto text-center">
+                          <a href="#"><p class="my-0 active">Contact</p></a>
                       </div>
-                      <div class="nav-item col-auto text-right">
+                      <div class="nav-item col-auto text-center">
                           <a href="https://www.instagram.com/luckybone.photography/?hl=en">
                             <i class="fab fa-instagram" class="social-media-icon"></i>
                           </a>
                       </div>
-                      <div class="nav-item col-auto text-left">
+                      <div class="nav-item col-auto text-center">
                           <a href="https://www.facebook.com/lucky.bone.photo/">
                             <i class="fab fa-facebook-square" class="social-media-icon"></i>
                           </a>
