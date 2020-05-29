@@ -24,7 +24,7 @@
 
 .sub-nav {
     color: #163838;
-    font-size: 1.75em;
+    font-size: 1.85em;
 }
 
 .header-social-media-link {
@@ -33,4 +33,8 @@
 
 .active {
     color: #C85216;
+}
+
+.sub-menu-item {
+    padding: 0;
 }
