@@ -2,21 +2,52 @@
     top: 35px;
 }
 
+.info-bar {
+    color: #FFFFFF;
+    text-indent: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 1.5em;
+    background-color: #B6DCDB;
+}
+
 .header-logo {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
     height: 9rem;
+}
+/* increase logo size*/
+.header-logo:hover {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    height: 10rem;
 }
 
 .main-nav {
     background-color: rgba(191,224,223,.8);
     color: #163838;
-    font-size: 35px;
+    font-size: 3em;
 }
 
 .sub-nav {
     color: #163838;
-    font-size: 23px;
+    font-size: 1.85em;
 }
 
 .header-social-media-link {
     height: 1.5rem;
+}
+
+.active {
+    color: #C85216;
+}
+
+.sub-menu-item {
+    padding: 0;
 }

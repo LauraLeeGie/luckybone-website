@@ -26,8 +26,6 @@ a:hover {
     box-sizing: content-box;
 }
 
-.social-media-link {
-    height: 50px;
-    margin-bottom: 20px;
-    padding: 10px;
-}
+.social-media-icon {
+    height: 1rem;   
+}   

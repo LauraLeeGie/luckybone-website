@@ -20,6 +20,11 @@ a:hover {
     transition:.3s;
 }
 
+.portfolio p {
+    font-size: 1.75em;
+    background-color: rgba(191,224,223,.6);
+}
+
 .unselectable {
     -webkit-user-select: none;
     -moz-user-select: none;
