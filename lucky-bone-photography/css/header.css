@@ -6,7 +6,7 @@
     transition:.5s;
     height: 9rem;
 }
-/* increase logo size*/
+/* increase logo size on hover*/
 .header-logo:hover {
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -24,7 +24,7 @@
 
 .sub-nav {
     color: #163838;
-    font-size: 1.85em;
+    font-size: 2em;
 }
 
 .header-social-media-link {

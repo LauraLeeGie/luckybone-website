@@ -1,8 +1,0 @@
-/*Perhaps this can be moved elsewhere? Embedded probably...*/
-body {
-    background-image: URL("../imgs/photo-portfolio-back.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: fill;
-}
